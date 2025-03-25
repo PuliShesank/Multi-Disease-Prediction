@@ -3,8 +3,9 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 def send_otp_signin(to_email, otp):
-    sender_email = "shesankpuli191@gmail.com"
-    sender_password = "gkbihmkvhmvemibe"
+    sender_email = "multidiseasedetection@gmail.com"
+    sender_password = "srhzxvtviwaxbtaw"
+
 
     msg = MIMEMultipart()
     msg['From'] = sender_email
@@ -21,8 +22,8 @@ def send_otp_signin(to_email, otp):
     server.quit()
 
 def send_otp_reset(to_email, otp):
-    sender_email = "shesankpuli191@gmail.com"
-    sender_password = "gkbihmkvhmvemibe"
+    sender_email = "multidiseasedetection@gmail.com"
+    sender_password = "srhzxvtviwaxbtaw"
 
     msg = MIMEMultipart()
     msg['From'] = sender_email
@@ -39,8 +40,8 @@ def send_otp_reset(to_email, otp):
     server.quit()
 
 def send_otp_signup(to_email, otp):
-    sender_email = "shesankpuli191@gmail.com"
-    sender_password = "gkbihmkvhmvemibe"
+    sender_email = "multidiseasedetection@gmail.com"
+    sender_password = "srhzxvtviwaxbtaw"
 
     msg = MIMEMultipart()
     msg['From'] = sender_email
